@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Hub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
 </head>
 <body>
-    <div class="fullBody">
-        <header class="appHeader">
+    <div id="fullBody">
+        <header id="appHeader">
             <div class="headerContainer">
                 <div class="headerBar-start">
                     <div class="menuContainer">
@@ -55,40 +55,53 @@
                 </div>
             </div>
         </header>
-        <aside class="appAside">
-            <div class="repoLending">
-                <div class="repoContainer">               
-                    <div class="newRepoButton">
-                        <h3 class="topRepo">Top repositories</h3> 
-                        <div class="repoIcone">
-                            <samp><i class="ri-git-repository-line"></i></samp>
-                            <samp class="new">New</samp>
+        <div id="application-main">
+            <aside class="appAside">
+                <div class="repoLending">
+                    <div class="repoContainer">               
+                        <div class="newRepoButton">
+                            <h3 class="topRepo">Top repositories</h3> 
+                            <div class="repoIcone">
+                                <samp><i class="ri-git-repository-line"></i></samp>
+                                <samp class="new">New</samp>
+                            </div>
                         </div>
-                    </div>
-                    <div class="repoSearch">
-                        <input type="search" placeholder="Find a repository" class="searchBar">    
-                    </div>
-                    <div class="repoList">
-                        <div class="imageList">
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
-                            <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                        <div class="repoSearch">
+                            <input type="search" placeholder="Find a repository" class="searchBar">    
                         </div>
-                        <div class="nameList">
-                            <div><a href="" class="repoName" id="repoName1">Chintub99/GitHub-Clone</a></div>
-                            <div><a href="" class="repoName" id="repoName2">Chintub99/YouTube-Clone</a></div>
-                            <div><a href="" class="repoName" id="repoName3">Chintub99/ChatDpt-Clone</a></div>
-                            <div><a href="https://github.com/Chintub99/Snake-Game.git" class="repoName" id="repoName4" target="_blank">Chintub99/Snake-Game</a></div>
-                            <div><a href="https://github.com/Chintub99/Image-Editor-Python.git" class="repoName" id="repoName5" target="_blank">Chintub99/Image-Editor</a></div>
-                            <div><a href="https://github.com/Chintub99/Translator.git" class="repoName" id="repoName6" target="_blank"> Chintub99/Translator-Python</a></div>
+                        <div class="repoList">
+                            <div class="imageList">
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                                <div class="imageDiv"><img src="profile.jpg" alt="Photo" class="profileImage"></div>
+                            </div>
+                            <div class="nameList">
+                                <div><a href="" class="repoName" id="repoName1">Chintub99/GitHub-Clone</a></div>
+                                <div><a href="" class="repoName" id="repoName2">Chintub99/YouTube-Clone</a></div>
+                                <div><a href="" class="repoName" id="repoName3">Chintub99/ChatDpt-Clone</a></div>
+                                <div><a href="https://github.com/Chintub99/Snake-Game.git" class="repoName" id="repoName4" target="_blank">Chintub99/Snake-Game</a></div>
+                                <div><a href="https://github.com/Chintub99/Image-Editor-Python.git" class="repoName" id="repoName5" target="_blank">Chintub99/Image-Editor</a></div>
+                                <div><a href="https://github.com/Chintub99/Translator.git" class="repoName" id="repoName6" target="_blank"> Chintub99/Translator-Python</a></div>
+                            </div>
                         </div>
+                    </div>           
+                </div>          
+            </aside>
+            <div class="fullMainContainer">
+                <div class="mainContainer">
+                    <div class="MainContent">
+                        <div class="main-footerContainer">
+                            <main class="appMain"></main>
+                            <footer class="appFooter"></footer>
+                        </div>
+                        <aside class="mainAside"></aside>
                     </div>
-                </div>           
-            </div>          
-        </aside>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
